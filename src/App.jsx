@@ -29,7 +29,7 @@ function App() {
             <BrowserRouter>
               <Routes>
                 <Route element={<AppLayout />}>
-                  <Route index element={<Navigate to="/home" />} />
+                  <Route index element={<Navigate to="/login" />} />
                   <Route path="home" element={<Home />} />
                   <Route path="products" element={<Products />} />
                   <Route path="products/:id" element={<ProductDetails />} />
